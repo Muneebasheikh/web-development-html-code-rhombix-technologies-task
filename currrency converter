@@ -1,0 +1,47 @@
+import java.util.Scanner;
+class coin{
+	public  void 
+		coin obj=new coin();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Welcome to currency convertor");
+		System.out.println("enter your amount");
+		int num=sc.nextInt();
+		System.out.println("1 for canadian dollar to Indian rupees");
+		System.out.println("2 for American dollar to Indian rupees"); 
+		int choice=sc.nextInt();
+		switch(choice){
+			case 1:{
+				obj.iscanadiandollartoIndianrupees(num);
+				break;
+			}
+			case 2:{
+				obj.isAmericandollartoIndianrupees(num);
+				break;
+			}
+			
+		}
+	}
+	public void iscanadiandollartoIndianrupees(int num){
+		
+		
+		Scanner amt=new Scanner(System.in);
+		int coverting=0;
+		int num1=amt.nextInt;
+		double canadian=62.74;
+		double converting=num1*canadian;
+		System.out.println(converting);
+		
+	}
+	void isamericandollartoIndianrupees(int num){
+		
+		
+		Scanner dol=new Scanner(System.in);
+		int covert=0;
+		int dol=amt.nextInt;
+		double canadian=83.17;
+		double converting=dol*convert;
+		System.out.println(converting);
+		
+	}
+
+}
